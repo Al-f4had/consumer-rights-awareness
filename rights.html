@@ -3,20 +3,60 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Learn about the six fundamental consumer rights in India.">
+  <meta name="description" content="Explore the six fundamental consumer rights recognised in India and practical examples.">
+  <meta name="theme-color" content="#102b46">
   <title>Know Your Rights | ConsumerShield</title>
+  <link rel="icon" href="assets/svg/shield-logo.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/style.css">
   <script src="js/main.js" defer></script>
+  
 </head>
 <body>
-  <header>
-    <nav aria-label="Main navigation">
-      <!-- Shared navigation will be added here. -->
+
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="ConsumerShield home">
+      <img src="assets/svg/shield-logo.svg" alt="" width="42" height="42">
+      <span>Consumer<span class="brand-accent">Shield</span><small>CONSUMER AWARENESS PORTAL</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span><span></span></button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+      <a  href="index.html">Home</a>
+      <a aria-current="page" href="rights.html">Know Your Rights</a>
+      <a  href="complaints.html">Complaint Guide</a>
+      <a  href="laws.html">Laws & Protection</a>
+      <a  href="quiz.html">Awareness Quiz</a>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark theme" title="Toggle theme">◐</button>
     </nav>
-  </header>
-  <main>
-    <!-- Consumer rights content will be developed here. -->
-  </main>
-  <footer><!-- Shared footer will be added here. --></footer>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-hero"><div class="container"><span class="eyebrow">CONSUMER RIGHTS</span><h1>Know your rights. <span class="text-gradient">Use them wisely.</span></h1><p>The Consumer Protection Act, 2019 recognises six fundamental consumer rights. Explore what each one means in everyday life.</p><div class="breadcrumb"><a href="index.html">Home</a><span>/</span><span>Know Your Rights</span></div></div></section>
+  <section class="section container">
+    <div class="content-toolbar"><div><h2>The six consumer rights</h2><p class="muted">Search by right, keyword or example.</p></div><label class="search-box"><span aria-hidden="true">⌕</span><input id="rights-search" type="search" placeholder="Search consumer rights..." aria-label="Search consumer rights"></label></div>
+    <div id="rights-grid" class="rights-grid" aria-live="polite">
+      <article class="right-card"><span class="right-number">01</span><div class="right-card-icon">🛡️</div><h3>Right to Safety</h3><p>Protection against hazardous goods and services that may affect life and property.</p><p class="example"><strong>Example:</strong> A consumer should be protected from an unsafe electrical appliance.</p></article>
+      <article class="right-card"><span class="right-number">02</span><div class="right-card-icon">ⓘ</div><h3>Right to be Informed</h3><p>Access to accurate information about quality, quantity, price, ingredients and standards.</p><p class="example"><strong>Example:</strong> Check product labels, MRP, expiry date and mandatory declarations.</p></article>
+      <article class="right-card"><span class="right-number">03</span><div class="right-card-icon">⇄</div><h3>Right to Choose</h3><p>Access to a variety of goods and services at competitive prices, without unfair restrictions.</p><p class="example"><strong>Example:</strong> A buyer should not be unfairly forced to purchase an unwanted add-on.</p></article>
+      <article class="right-card"><span class="right-number">04</span><div class="right-card-icon">◉</div><h3>Right to be Heard</h3><p>Consumer interests and complaints should receive due consideration at appropriate forums.</p><p class="example"><strong>Example:</strong> A consumer can raise a grievance through an appropriate complaint channel.</p></article>
+      <article class="right-card"><span class="right-number">05</span><div class="right-card-icon">⚖</div><h3>Right to Seek Redressal</h3><p>Seek appropriate remedies against unfair trade practices, defects and deficiencies in services.</p><p class="example"><strong>Example:</strong> Depending on the case, a Commission may order repair, replacement, refund or compensation.</p></article>
+      <article class="right-card"><span class="right-number">06</span><div class="right-card-icon">▤</div><h3>Right to Consumer Education</h3><p>Learn about consumer rights and the knowledge needed to make informed decisions.</p><p class="example"><strong>Example:</strong> Understand complaint procedures before making an important purchase.</p></article>
+    </div>
+    <p id="rights-status" class="status-message" role="status">The rights are shown above. Search to filter them.</p>
+    <div class="info-note"><strong>Why is XML included in this project?</strong><p>The rights data is also stored in <code>xml/consumer-rights.xml</code>. JavaScript reads that structured file and can render the cards dynamically when the site is served through a web server.</p></div>
+  </section>
+  <section class="section section-soft"><div class="container split-callout"><div><span class="eyebrow">PUT KNOWLEDGE INTO ACTION</span><h2>Facing a consumer problem?</h2><p>Learn how to document the issue and approach the right grievance channel.</p></div><a class="btn btn-primary" href="complaints.html">Complaint guide →</a></div></section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><a class="brand footer-brand" href="index.html"><img src="assets/svg/shield-logo.svg" alt="" width="38" height="38"><span>Consumer<span class="brand-accent">Shield</span><small>KNOW YOUR RIGHTS. STAY PROTECTED.</small></span></a><p class="footer-copy">A student-built awareness project that makes consumer rights and complaint pathways easier to understand.</p></div>
+    <div><h3>Explore</h3><a href="rights.html">Consumer Rights</a><a href="complaints.html">Complaint Guide</a><a href="laws.html">Laws & Protection</a><a href="quiz.html">Awareness Quiz</a></div>
+    <div><h3>Official resources</h3><a href="https://consumerhelpline.gov.in/" target="_blank" rel="noopener">National Consumer Helpline</a><a href="https://e-jagriti.gov.in/" target="_blank" rel="noopener">e-Jagriti Portal</a><a href="https://consumeraffairs.gov.in/" target="_blank" rel="noopener">Department of Consumer Affairs</a></div>
+  </div>
+  <div class="container footer-bottom"><span>© <span data-year></span> ConsumerShield. Educational project.</span><span>Information is general awareness, not legal advice.</span></div>
+</footer>
 </body>
 </html>
