@@ -1,1 +1,122 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 500" role="img" aria-labelledby="title desc"><title id="title">Consumer protection illustration</title><desc id="desc">A consumer checklist beside a protective shield.</desc><defs><linearGradient id="shield" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0e9f91"/><stop offset="1" stop-color="#17647a"/></linearGradient></defs><circle cx="330" cy="245" r="210" fill="#e6f6f2"/><path d="M312 62 455 117v104c0 100-58 160-143 197-85-37-143-97-143-197V117l143-55Z" fill="url(#shield)"/><path d="M312 98 423 140v82c0 78-44 127-111 158-67-31-111-80-111-158v-82l111-42Z" fill="none" stroke="#a9e8dc" stroke-width="4"/><path d="m264 226 34 34 68-75" fill="none" stroke="#fff" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/><rect x="26" y="128" width="205" height="260" rx="19" fill="#fff" stroke="#dcebe8" stroke-width="3"/><rect x="52" y="158" width="92" height="9" rx="4" fill="#173d5e"/><rect x="52" y="180" width="145" height="6" rx="3" fill="#c6d6df"/><g fill="#0e9f91"><circle cx="62" cy="222" r="10"/><circle cx="62" cy="267" r="10"/><circle cx="62" cy="312" r="10"/></g><g stroke="#fff" stroke-width="3" fill="none"><path d="m57 222 4 4 7-8M57 267l4 4 7-8M57 312l4 4 7-8"/></g><g fill="#9aabb8"><rect x="83" y="218" width="104" height="7" rx="3"/><rect x="83" y="230" width="82" height="5" rx="2"/><rect x="83" y="263" width="104" height="7" rx="3"/><rect x="83" y="275" width="82" height="5" rx="2"/><rect x="83" y="308" width="104" height="7" rx="3"/><rect x="83" y="320" width="82" height="5" rx="2"/></g><rect x="385" y="310" width="198" height="132" rx="17" fill="#fff" stroke="#dcebe8" stroke-width="3"/><rect x="410" y="333" width="80" height="8" rx="4" fill="#173d5e"/><rect x="410" y="352" width="145" height="6" rx="3" fill="#d3dfe5"/><rect x="410" y="370" width="112" height="6" rx="3" fill="#d3dfe5"/><rect x="410" y="393" width="72" height="27" rx="8" fill="#0e9f91"/><circle cx="500" cy="90" r="22" fill="#f6c96d"/><path d="M491 90h18m-9-9v18" stroke="#fff" stroke-width="3" stroke-linecap="round"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 520" role="img" aria-labelledby="title desc">
+  <title id="title">Consumer protection and fair trade illustration</title>
+  <desc id="desc">A blue and teal vector still life showing shopping bags, product packages, a balance scale, calculator, receipt, eyeglasses, gavel, and law books.</desc>
+  <defs>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#19c6cf"/><stop offset="1" stop-color="#078eaa"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#55b9ee"/><stop offset="1" stop-color="#176db9"/></linearGradient>
+    <linearGradient id="deepBlue" x1="0" y1="0" x2="0.9" y2="1"><stop stop-color="#258bd1"/><stop offset="1" stop-color="#12558f"/></linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#eaf5fb"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="13" stdDeviation="11" flood-color="#28678c" flood-opacity=".16"/></filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#28678c" flood-opacity=".12"/></filter>
+  </defs>
+
+  <!-- soft floating ground planes -->
+  <ellipse cx="350" cy="439" rx="294" ry="42" fill="#e8f5fa"/>
+  <path d="m46 387 300-164 285 164-298 151Z" fill="#f2f9fc" opacity=".9"/>
+
+  <!-- shopping bags -->
+  <g filter="url(#shadow)">
+    <path d="m132 170 87-37 91 47-2 156-89 47-88-51Z" fill="url(#teal)"/>
+    <path d="m219 133 91 47-2 156-90-49Z" fill="#087fa5"/>
+    <path d="m132 170 87 47v166l-88-51Z" fill="#20c8cf"/>
+    <path d="M174 163c-3-38 8-62 25-62 19 0 29 24 27 54M241 198c-3-37 8-61 25-61 18 0 27 21 26 50" fill="none" stroke="#1267a9" stroke-width="9" stroke-linecap="round"/>
+    <path d="m159 195 48 26v105l-48-28Z" fill="#fff" opacity=".13"/>
+  </g>
+  <g filter="url(#soft)">
+    <path d="m78 278 61-32 58 34-1 105-60 33-58-34Z" fill="#d8f4f4"/>
+    <path d="m139 246 58 34-1 105-59-34Z" fill="#a6e3e8"/>
+    <path d="m78 278 61 34v105l-61-36Z" fill="#effbfb"/>
+    <path d="M105 273c-2-27 5-44 17-44 13 0 20 18 18 39" fill="none" stroke="#48b5db" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- stacked product boxes -->
+  <g filter="url(#shadow)">
+    <path d="m254 227 86-46 110 57-87 50Z" fill="#61b9ec"/>
+    <path d="m254 227 109 61v92l-109-60Z" fill="url(#blue)"/>
+    <path d="m363 288 87-50v91l-87 51Z" fill="#1765a9"/>
+    <path d="m288 229 25-13 28 15-25 14Z" fill="#d8f6ff"/>
+    <path d="m289 259 24 14v8l-24-14Z" fill="#a9def4"/>
+    <path d="m291 326 24 13v8l-24-13Z" fill="#a9def4"/>
+    <path d="m315 322 87-49 48 25-87 50Z" fill="#3197d4"/>
+    <path d="m315 322 48 26v85l-48-27Z" fill="#247bb9"/>
+    <path d="m363 348 87-50v84l-87 51Z" fill="#12588f"/>
+    <path d="m345 333 23-13 24 13-23 14Z" fill="#d8f6ff"/>
+    <path d="m345 365 23 13v8l-23-13Z" fill="#a9def4"/>
+  </g>
+
+  <!-- receipt / contract sheet -->
+  <g filter="url(#soft)" transform="rotate(12 405 355)">
+    <path d="M373 251h155v166l-13-8-13 8-13-8-13 8-13-8-13 8-13-8-13 8-13-8-13 8Z" fill="url(#paper)" stroke="#cce3ef" stroke-width="2"/>
+    <path d="M393 279h108M393 295h91M393 311h103M393 327h76M393 358h108M393 374h94" stroke="#b8d5e4" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="475" cy="395" r="13" fill="none" stroke="#4aa8d6" stroke-width="3"/>
+    <path d="m468 395 5 5 10-12" fill="none" stroke="#4aa8d6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- balance scale -->
+  <g filter="url(#shadow)">
+    <ellipse cx="570" cy="407" rx="66" ry="17" fill="#c8e7f5"/>
+    <path d="M565 131h13l10 260h-33Z" fill="url(#blue)"/>
+    <path d="M572 114c-7 0-11-6-10-14l4-32h13l5 32c1 8-4 14-12 14Z" fill="#2189cf"/>
+    <path d="M572 120v-11" stroke="#d8f5ff" stroke-width="4"/>
+    <path d="M572 132 482 192M572 132l89 60" stroke="#319bd4" stroke-width="4" stroke-linecap="round"/>
+    <path d="M482 192v21M661 192v21" stroke="#319bd4" stroke-width="3"/>
+    <path d="M432 211q50 66 100 0Z" fill="url(#teal)" stroke="#14b9c7" stroke-width="3"/>
+    <path d="M611 211q50 66 100 0Z" fill="url(#teal)" stroke="#14b9c7" stroke-width="3"/>
+    <path d="M432 211q50 57 100 0M611 211q50 57 100 0" fill="none" stroke="#72e3e5" stroke-width="3"/>
+    <ellipse cx="572" cy="394" rx="35" ry="11" fill="#1b6da8"/>
+    <ellipse cx="572" cy="385" rx="28" ry="9" fill="#48b5e2"/>
+  </g>
+
+  <!-- calculator -->
+  <g filter="url(#soft)" transform="rotate(-18 496 178)">
+    <rect x="449" y="143" width="104" height="69" rx="13" fill="#278bd0"/>
+    <rect x="461" y="153" width="78" height="18" rx="5" fill="#dff7ff"/>
+    <g fill="#fff">
+      <rect x="462" y="180" width="13" height="9" rx="2"/><rect x="481" y="180" width="13" height="9" rx="2"/><rect x="500" y="180" width="13" height="9" rx="2"/><rect x="519" y="180" width="13" height="9" rx="2"/>
+      <rect x="462" y="195" width="13" height="8" rx="2"/><rect x="481" y="195" width="13" height="8" rx="2"/><rect x="500" y="195" width="13" height="8" rx="2"/><rect x="519" y="195" width="13" height="8" rx="2"/>
+    </g>
+  </g>
+
+  <!-- law books -->
+  <g filter="url(#shadow)">
+    <path d="m497 327 112-63 66 35-112 64Z" fill="#22c4ca"/>
+    <path d="m497 327 66 36v30l-66-37Z" fill="#0c8eae"/>
+    <path d="m563 363 112-64v29l-112 65Z" fill="#087c9e"/>
+    <path d="m510 322 98-55 49 27-98 55Z" fill="#50d5d2"/>
+    <path d="m510 322 49 27v7l-49-27Z" fill="#baf3ed"/>
+    <path d="m559 349 98-55v7l-98 55Z" fill="#1388ae"/>
+    <path d="m482 374 119-67 76 41-119 68Z" fill="#258fd0"/>
+    <path d="m482 374 76 42v26l-76-42Z" fill="#176da9"/>
+    <path d="m558 416 119-68v27l-119 67Z" fill="#11558c"/>
+    <path d="m504 373 96-54 51 28-96 55Z" fill="#b9eff0"/>
+    <path d="m516 380 79-45" stroke="#fff" stroke-width="3" opacity=".85"/>
+    <path d="m529 388 79-45" stroke="#fff" stroke-width="3" opacity=".85"/>
+  </g>
+
+  <!-- magnifying glass and checklist -->
+  <g filter="url(#soft)" transform="rotate(-22 226 402)">
+    <rect x="147" y="370" width="133" height="74" rx="14" fill="#d8f3fb" stroke="#4ca9dc" stroke-width="6"/>
+    <path d="M169 391h54M169 407h74" stroke="#7bb9d8" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="244" cy="393" r="18" fill="#16b9c7"/>
+    <path d="m235 393 7 7 12-15" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="m258 409 31 38" stroke="#1878b9" stroke-width="12" stroke-linecap="round"/>
+  </g>
+
+  <!-- small gavel -->
+  <g filter="url(#soft)" transform="rotate(36 355 420)">
+    <rect x="346" y="382" width="17" height="84" rx="8" fill="#267db9"/>
+    <rect x="322" y="375" width="65" height="24" rx="9" fill="#1c6ca8"/>
+    <rect x="316" y="368" width="77" height="13" rx="6" fill="#50aee0"/>
+    <ellipse cx="355" cy="466" rx="35" ry="9" fill="#8acbe8"/>
+  </g>
+
+  <!-- price tag and small decorative details -->
+  <g filter="url(#soft)" transform="rotate(-22 87 431)">
+    <path d="m52 415 58-18 31 30-58 18Z" fill="#d9f4fb" stroke="#67bde1" stroke-width="3"/>
+    <circle cx="119" cy="427" r="4" fill="#278bc5"/>
+  </g>
+  <circle cx="367" cy="107" r="13" fill="#f7cb72"/>
+  <path d="M361 107h12M367 101v12" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="627" cy="267" r="7" fill="#77d9d7"/>
+  <circle cx="298" cy="108" r="5" fill="#69c5e4"/>
+</svg>
