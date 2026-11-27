@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<consumerRights>
-  <!-- Structured consumer-rights information will be added here. -->
+<consumerRights country="India" legalBasis="Consumer Protection Act, 2019">
+  <right id="1"><title>Right to Safety</title><icon>🛡️</icon><description>Protection against the marketing of goods and services that are hazardous to life and property.</description><example>A consumer should be protected from an unsafe electrical appliance that may cause injury or damage.</example></right>
+  <right id="2"><title>Right to be Informed</title><icon>ⓘ</icon><description>The right to be informed about the quality, quantity, potency, purity, standard and price of goods or services, as applicable.</description><example>Check the product label, maximum retail price, expiry date and required declarations before buying.</example></right>
+  <right id="3"><title>Right to Choose</title><icon>⇄</icon><description>Access, wherever possible, to a variety of goods and services at competitive prices.</description><example>A buyer should not be unfairly forced to purchase an unwanted add-on with a product.</example></right>
+  <right id="4"><title>Right to be Heard</title><icon>◉</icon><description>The right to be heard and to be assured that consumer interests receive due consideration at appropriate forums.</description><example>A consumer can raise a grievance through an appropriate complaint channel and seek consideration.</example></right>
+  <right id="5"><title>Right to Seek Redressal</title><icon>⚖</icon><description>The right to seek redressal against unfair trade practices or restrictive trade practices, or unscrupulous exploitation of consumers.</description><example>Depending on the case, a Consumer Commission may order repair, replacement, refund or compensation.</example></right>
+  <right id="6"><title>Right to Consumer Education</title><icon>▤</icon><description>The right to acquire the knowledge and skill to be an informed consumer throughout life.</description><example>Learn how to compare product details and understand complaint procedures before making a purchase.</example></right>
 </consumerRights>
