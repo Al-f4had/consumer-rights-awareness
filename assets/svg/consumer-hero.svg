@@ -1,132 +1,124 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 520" role="img" aria-labelledby="title desc">
-  <title id="title">Consumer protection still life</title>
-  <desc id="desc">A coordinated blue and teal three-dimensional illustration of shopping bags, packages, a balanced weighing scale, calculator, receipt, magnifying glass, gavel and law books.</desc>
-  <defs>
-    <linearGradient id="bagFront" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#29d0d0"/><stop offset="1" stop-color="#0b9eb5"/></linearGradient>
-    <linearGradient id="bagSide" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0c9bb5"/><stop offset="1" stop-color="#08718f"/></linearGradient>
-    <linearGradient id="boxTop" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#75cafa"/><stop offset="1" stop-color="#3698d5"/></linearGradient>
-    <linearGradient id="boxFront" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#369fe0"/><stop offset="1" stop-color="#1768aa"/></linearGradient>
-    <linearGradient id="boxSide" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#176da9"/><stop offset="1" stop-color="#104d82"/></linearGradient>
-    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#78d5f0"/><stop offset=".5" stop-color="#258ed0"/><stop offset="1" stop-color="#145b9b"/></linearGradient>
-    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#e4f2f8"/></linearGradient>
-    <linearGradient id="bookTeal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#48d5d0"/><stop offset="1" stop-color="#078aa7"/></linearGradient>
-    <linearGradient id="bookBlue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#48aee4"/><stop offset="1" stop-color="#155c9a"/></linearGradient>
-    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#174e70" flood-opacity=".17"/></filter>
-    <filter id="smallShadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#174e70" flood-opacity=".14"/></filter>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 520" role="img" aria-labelledby="title desc">
+<title id="title">Consumer protection illustration</title>
+<desc id="desc">A polished isometric still life featuring shopping bags, product packages, a balanced scale, calculator, receipt, magnifying glass and law books.</desc>
+<defs>
+ <linearGradient id="bag" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#22d0d0"/><stop offset="1" stop-color="#0797ad"/></linearGradient>
+ <linearGradient id="bagSide" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b9ab0"/><stop offset="1" stop-color="#08708e"/></linearGradient>
+ <linearGradient id="blueTop" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#83d2fa"/><stop offset="1" stop-color="#399bd7"/></linearGradient>
+ <linearGradient id="blueFront" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#379edc"/><stop offset="1" stop-color="#1768a9"/></linearGradient>
+ <linearGradient id="blueSide" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#176ba7"/><stop offset="1" stop-color="#104b7e"/></linearGradient>
+ <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#75d1ef"/><stop offset=".55" stop-color="#278dca"/><stop offset="1" stop-color="#14558d"/></linearGradient>
+ <linearGradient id="tealBook" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4bd5d0"/><stop offset="1" stop-color="#078ba5"/></linearGradient>
+ <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#e8f4fa"/></linearGradient>
+ <filter id="depth" x="-25%" y="-25%" width="150%" height="160%"><feDropShadow dx="0" dy="13" stdDeviation="10" flood-color="#174e70" flood-opacity=".16"/></filter>
+ <filter id="soft" x="-25%" y="-25%" width="150%" height="160%"><feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#174e70" flood-opacity=".13"/></filter>
+</defs>
+<!-- Ground plane and contact shadows -->
+<ellipse cx="350" cy="443" rx="292" ry="31" fill="#dceff7" opacity=".8"/>
+<path d="m42 382 304-171 302 171-305 173Z" fill="#f1f8fb"/>
+<ellipse cx="182" cy="376" rx="100" ry="20" fill="#b4d9e9" opacity=".28"/>
+<ellipse cx="470" cy="411" rx="140" ry="19" fill="#b4d9e9" opacity=".25"/>
 
-  <!-- Soft studio ground and contact shadows -->
-  <ellipse cx="355" cy="445" rx="300" ry="34" fill="#dceff7" opacity=".75"/>
-  <path d="m40 390 306-173 315 178-307 174Z" fill="#f0f8fc"/>
-  <ellipse cx="190" cy="389" rx="115" ry="24" fill="#b9dcea" opacity=".35"/>
-  <ellipse cx="420" cy="414" rx="160" ry="25" fill="#b9dcea" opacity=".3"/>
+<!-- Shopping bag: front, gusset and folded rim -->
+<g filter="url(#depth)">
+ <path d="m78 180 84-47 91 51-84 48Z" fill="#48ded9"/>
+ <path d="m78 180 91 52v154l-91-53Z" fill="url(#bag)"/>
+ <path d="m169 232 84-48v154l-84 48Z" fill="url(#bagSide)"/>
+ <path d="m78 180 84-47 91 51-84 48Z" fill="none" stroke="#8aeeea" stroke-width="3"/>
+ <path d="M119 166c-5-35 5-59 21-59 17 0 26 23 24 52M184 200c-3-33 7-56 22-56 16 0 24 21 23 47" fill="none" stroke="#176ba7" stroke-width="8" stroke-linecap="round"/>
+ <path d="m96 202 54 31v124l-54-31Z" fill="#fff" opacity=".12"/>
+</g>
+<!-- Smaller paper bag -->
+<g filter="url(#soft)">
+ <path d="m43 281 49-28 55 31-50 29Z" fill="#d9f5f4"/>
+ <path d="m43 281 54 32v91l-54-31Z" fill="#effbfb"/>
+ <path d="m97 313 50-29v90l-50 30Z" fill="#a9e5e8"/>
+ <path d="M69 275c-2-23 5-38 15-38 11 0 17 15 16 33" fill="none" stroke="#53b4d7" stroke-width="6" stroke-linecap="round"/>
+</g>
 
-  <!-- Shopping bags: shared floor plane, visible side folds and handles -->
-  <g filter="url(#shadow)">
-    <path d="m86 177 82-43 85 45-82 48Z" fill="#42d9d8"/>
-    <path d="m86 177 85 50v157l-85-49Z" fill="url(#bagFront)"/>
-    <path d="m171 227 82-48v156l-82 49Z" fill="url(#bagSide)"/>
-    <path d="M123 160c-5-36 5-61 22-61 18 0 27 25 25 53M183 194c-3-34 7-57 23-57 17 0 25 22 24 48" fill="none" stroke="#1769a6" stroke-width="8" stroke-linecap="round"/>
-    <path d="m105 195 51 30v127l-51-30Z" fill="#fff" opacity=".12"/>
-    <path d="m171 227 82-48v17l-82 48Z" fill="#08718f" opacity=".35"/>
-  </g>
-  <g filter="url(#smallShadow)">
-    <path d="m49 278 49-27 52 29-50 29Z" fill="#d8f5f4"/>
-    <path d="m49 278 51 31v95l-51-30Z" fill="#eefbfb"/>
-    <path d="m100 309 50-29v95l-50 29Z" fill="#a6e4e8"/>
-    <path d="M76 273c-2-24 5-39 15-39 12 0 18 16 17 34" fill="none" stroke="#4caed4" stroke-width="6" stroke-linecap="round"/>
-  </g>
+<!-- Two product cartons with clear three-face geometry -->
+<g filter="url(#depth)">
+ <path d="m235 226 93-53 116 64-93 53Z" fill="url(#blueTop)"/>
+ <path d="m235 226 116 64v104l-116-65Z" fill="url(#blueFront)"/>
+ <path d="m351 290 93-53v104l-93 53Z" fill="url(#blueSide)"/>
+ <path d="m275 229 27-15 34 19-27 15Z" fill="#e3f8ff"/>
+ <path d="m274 313 27 15v8l-27-15ZM274 339l27 15v8l-27-15Z" fill="#b8e8fa"/>
+ <path d="m314 339 82-47 101 56-82 47Z" fill="#65b9e8"/>
+ <path d="m314 339 101 56v79l-101-57Z" fill="#247fbd"/>
+ <path d="m415 395 82-47v79l-82 47Z" fill="#12568d"/>
+ <path d="m347 341 25-14 32 18-25 14Z" fill="#e3f8ff"/>
+ <path d="m347 375 25 14v8l-25-14Z" fill="#b8e8fa"/>
+</g>
 
-  <!-- Product packages with consistent isometric faces -->
-  <g filter="url(#shadow)">
-    <path d="m238 226 91-51 113 62-91 52Z" fill="url(#boxTop)"/>
-    <path d="m238 226 113 63v105l-113-64Z" fill="url(#boxFront)"/>
-    <path d="m351 289 91-52v104l-91 53Z" fill="url(#boxSide)"/>
-    <path d="m278 229 25-14 34 19-25 14Z" fill="#dff8ff"/>
-    <path d="m351 289 91-52v16l-91 52Z" fill="#78c7ed" opacity=".45"/>
-    <path d="m274 314 26 15v9l-26-15Z" fill="#b8e9fb" opacity=".8"/>
-    <path d="m274 340 26 15v9l-26-15Z" fill="#b8e9fb" opacity=".8"/>
+<!-- Receipt lying flat with a subtle curl and legible ruled detail -->
+<g filter="url(#soft)" transform="rotate(8 445 286)">
+ <path d="M395 206h127v164l-11-7-11 7-11-7-11 7-11-7-11 7-11-7-11 7-11-7-11 7-17-9Z" fill="url(#paper)" stroke="#c9e1ed" stroke-width="2"/>
+ <path d="M500 206v25h22" fill="#dceef5" stroke="#c9e1ed" stroke-width="2"/>
+ <path d="M415 248h88M415 264h94M415 280h78M415 296h91M415 312h62" stroke="#a9c9d9" stroke-width="4" stroke-linecap="round"/>
+ <circle cx="480" cy="341" r="12" fill="none" stroke="#39a4d3" stroke-width="3"/>
+ <path d="m474 341 4 4 8-9" fill="none" stroke="#1689b8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
 
-    <path d="m314 337 80-45 101 55-81 46Z" fill="#56b4e8"/>
-    <path d="m314 337 100 56v81l-100-56Z" fill="#247fbe"/>
-    <path d="m414 393 81-46v81l-81 46Z" fill="#12578f"/>
-    <path d="m346 339 25-14 31 17-25 14Z" fill="#dff8ff"/>
-    <path d="m346 373 24 14v8l-24-14Z" fill="#b7e5f7"/>
-  </g>
+<!-- Calculator, separate from the receipt -->
+<g filter="url(#soft)" transform="rotate(-13 478 157)">
+ <rect x="430" y="121" width="101" height="71" rx="12" fill="url(#metal)"/>
+ <rect x="442" y="133" width="77" height="18" rx="4" fill="#e9fbff"/>
+ <g fill="#fff">
+  <rect x="443" y="160" width="13" height="9" rx="2"/><rect x="462" y="160" width="13" height="9" rx="2"/><rect x="481" y="160" width="13" height="9" rx="2"/><rect x="500" y="160" width="13" height="9" rx="2"/>
+  <rect x="443" y="176" width="13" height="8" rx="2"/><rect x="462" y="176" width="13" height="8" rx="2"/><rect x="481" y="176" width="13" height="8" rx="2"/><rect x="500" y="176" width="13" height="8" rx="2"/>
+ </g>
+</g>
 
-  <!-- Receipt sits on the same tabletop, with folded corner and print -->
-  <g filter="url(#smallShadow)" transform="rotate(9 438 294)">
-    <path d="M395 210h123v164l-10-7-10 7-10-7-10 7-10-7-10 7-10-7-10 7-10-7-10 7-13-8Z" fill="url(#paper)" stroke="#c8e1ed" stroke-width="2"/>
-    <path d="M495 210v26h23" fill="#d8edf5" stroke="#c8e1ed" stroke-width="2"/>
-    <path d="M414 250h84M414 265h93M414 280h76M414 295h89M414 310h62" stroke="#a9c9d9" stroke-width="4" stroke-linecap="round"/>
-    <circle cx="477" cy="342" r="12" fill="none" stroke="#39a4d3" stroke-width="3"/>
-    <path d="m471 342 4 4 8-9" fill="none" stroke="#1689b8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-  </g>
+<!-- Balanced legal scale: symmetrical suspension and matching pans -->
+<g filter="url(#depth)">
+ <ellipse cx="581" cy="420" rx="74" ry="14" fill="#b8ddec" opacity=".55"/>
+ <path d="M575 116h13l8 278h-30Z" fill="url(#metal)"/>
+ <path d="M581 116c-8 0-12-7-10-15l5-31h12l5 31c2 8-4 15-12 15Z" fill="#258bd0"/>
+ <path d="M581 132 493 183M581 132l88 51" fill="none" stroke="#278bc6" stroke-width="4" stroke-linecap="round"/>
+ <path d="M493 183v28M669 183v28" stroke="#278bc6" stroke-width="3"/>
+ <path d="M448 211q45 54 90 0Z" fill="url(#tealBook)" stroke="#0b9eb2" stroke-width="3"/>
+ <path d="M624 211q45 54 90 0Z" fill="url(#tealBook)" stroke="#0b9eb2" stroke-width="3"/>
+ <path d="M455 213q38 37 76 0M631 213q38 37 76 0" fill="none" stroke="#a6f1ec" stroke-width="3"/>
+ <ellipse cx="581" cy="394" rx="35" ry="10" fill="#165a91"/>
+ <ellipse cx="581" cy="386" rx="27" ry="8" fill="#58bce3"/>
+</g>
 
-  <!-- Calculator, placed beside rather than over the document -->
-  <g filter="url(#smallShadow)" transform="rotate(-14 477 159)">
-    <rect x="430" y="123" width="100" height="70" rx="12" fill="url(#metal)"/>
-    <rect x="442" y="134" width="76" height="17" rx="4" fill="#e8fbff"/>
-    <g fill="#fff">
-      <rect x="443" y="160" width="13" height="9" rx="2"/><rect x="462" y="160" width="13" height="9" rx="2"/><rect x="481" y="160" width="13" height="9" rx="2"/><rect x="500" y="160" width="13" height="9" rx="2"/>
-      <rect x="443" y="176" width="13" height="8" rx="2"/><rect x="462" y="176" width="13" height="8" rx="2"/><rect x="481" y="176" width="13" height="8" rx="2"/><rect x="500" y="176" width="13" height="8" rx="2"/>
-    </g>
-  </g>
+<!-- Stacked law books with page blocks, covers and visible spines -->
+<g filter="url(#depth)">
+ <path d="m472 352 111-63 81 45-111 63Z" fill="#55ddd4"/>
+ <path d="m472 352 81 45v24l-81-45Z" fill="#0b8da7"/>
+ <path d="m553 397 111-63v24l-111 63Z" fill="#08718e"/>
+ <path d="m487 351 96-55 65 36-97 55Z" fill="url(#tealBook)"/>
+ <path d="m487 351 64 36v8l-64-36Z" fill="#d5f8f0"/>
+ <path d="m551 387 97-55v8l-97 55Z" fill="#087b98"/>
+ <path d="m449 411 121-69 95 53-121 69Z" fill="#60b9e9"/>
+ <path d="m449 411 95 53v24l-95-53Z" fill="#176da8"/>
+ <path d="m544 464 121-69v24l-121 69Z" fill="#104e84"/>
+ <path d="m470 410 100-57 69 39-100 57Z" fill="url(#blueFront)"/>
+ <path d="m486 420 84-48M500 429l84-48" stroke="#dff7ff" stroke-width="3" opacity=".9"/>
+</g>
 
-  <!-- Balance scale: complete beam, suspension strings and two level pans -->
-  <g filter="url(#shadow)">
-    <ellipse cx="581" cy="421" rx="75" ry="15" fill="#b8ddec" opacity=".6"/>
-    <path d="M575 112h13l8 282h-30Z" fill="url(#metal)"/>
-    <path d="M581 112c-8 0-12-7-10-15l5-31h12l5 31c2 8-4 15-12 15Z" fill="#258bd0"/>
-    <path d="M581 122v-10" stroke="#d8f7ff" stroke-width="4" stroke-linecap="round"/>
-    <path d="M581 132 493 183 669 183Z" fill="#54b5e3" opacity=".18"/>
-    <path d="M581 132 493 183M581 132l88 51" fill="none" stroke="#258bd0" stroke-width="4" stroke-linecap="round"/>
-    <path d="M493 183v29M669 183v29" stroke="#258bd0" stroke-width="3"/>
-    <path d="M448 212q45 55 90 0Z" fill="url(#bookTeal)" stroke="#08a9bd" stroke-width="3"/>
-    <path d="M624 212q45 55 90 0Z" fill="url(#bookTeal)" stroke="#08a9bd" stroke-width="3"/>
-    <path d="M455 214q38 37 76 0M631 214q38 37 76 0" fill="none" stroke="#a2f2ed" stroke-width="3" opacity=".8"/>
-    <ellipse cx="581" cy="394" rx="35" ry="10" fill="#165a91"/>
-    <ellipse cx="581" cy="387" rx="27" ry="8" fill="#54b8e2"/>
-  </g>
+<!-- Magnifying glass and checklist, foreground -->
+<g filter="url(#soft)" transform="rotate(-17 201 419)">
+ <rect x="135" y="384" width="126" height="67" rx="12" fill="#e7f8fc" stroke="#55b5df" stroke-width="5"/>
+ <path d="M153 402h53M153 417h43" stroke="#8abed6" stroke-width="4" stroke-linecap="round"/>
+ <circle cx="229" cy="409" r="17" fill="#10b8c2"/>
+ <path d="m221 409 6 6 11-13" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="m241 424 33 37" stroke="#176ca8" stroke-width="11" stroke-linecap="round"/>
+ <path d="m241 424 33 37" stroke="#64b9e0" stroke-width="3" stroke-linecap="round"/>
+</g>
 
-  <!-- Law books stacked neatly on a separate lower-right plane -->
-  <g filter="url(#shadow)">
-    <path d="m474 354 110-62 79 43-111 63Z" fill="#4dd4ce"/>
-    <path d="m474 354 78 44v24l-78-44Z" fill="#0789a5"/>
-    <path d="m552 398 111-63v24l-111 63Z" fill="#08718f"/>
-    <path d="m489 352 95-54 61 33-96 55Z" fill="url(#bookTeal)"/>
-    <path d="m489 352 60 34v8l-60-34Z" fill="#b8f3e9"/>
-    <path d="m549 386 96-55v8l-96 55Z" fill="#087c9c"/>
-    <path d="m452 414 119-67 93 51-119 67Z" fill="#58b6e9"/>
-    <path d="m452 414 93 51v23l-93-51Z" fill="#176ca8"/>
-    <path d="m545 465 119-67v23l-119 67Z" fill="#104e84"/>
-    <path d="m472 413 99-56 67 37-100 56Z" fill="url(#bookBlue)"/>
-    <path d="m486 421 83-47" stroke="#dff7ff" stroke-width="3" opacity=".9"/>
-    <path d="m501 430 83-47" stroke="#dff7ff" stroke-width="3" opacity=".9"/>
-  </g>
+<!-- Gavel with a distinct head, handle and round sound block -->
+<g filter="url(#soft)" transform="rotate(30 352 421)">
+ <ellipse cx="352" cy="465" rx="38" ry="10" fill="#9bcfe6"/>
+ <rect x="344" y="394" width="16" height="69" rx="7" fill="#1a68a6"/>
+ <rect x="318" y="381" width="68" height="29" rx="10" fill="#1765a4"/>
+ <path d="M322 386h60" stroke="#70c5e9" stroke-width="5" stroke-linecap="round"/>
+</g>
 
-  <!-- Magnifier and checklist in the foreground -->
-  <g filter="url(#smallShadow)" transform="rotate(-17 201 420)">
-    <rect x="135" y="384" width="126" height="67" rx="12" fill="#e5f7fc" stroke="#54b5df" stroke-width="5"/>
-    <path d="M153 402h53M153 417h43" stroke="#8abed6" stroke-width="4" stroke-linecap="round"/>
-    <circle cx="229" cy="409" r="17" fill="#10b8c2"/>
-    <path d="m221 409 6 6 11-13" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="m241 424 33 37" stroke="#176ca8" stroke-width="11" stroke-linecap="round"/>
-    <path d="m241 424 33 37" stroke="#64b9e0" stroke-width="3" stroke-linecap="round"/>
-  </g>
-
-  <!-- Gavel and base, with clear separation from other objects -->
-  <g filter="url(#smallShadow)" transform="rotate(32 352 423)">
-    <ellipse cx="352" cy="465" rx="39" ry="10" fill="#9bcfe6"/>
-    <rect x="344" y="391" width="16" height="71" rx="7" fill="#1a68a6"/>
-    <path d="M318 390q0-9 9-9h51q9 0 9 9v15q0 9-9 9h-51q-9 0-9-9Z" fill="#1765a4"/>
-    <path d="M312 385q0-7 8-7h65q8 0 8 7v7h-81Z" fill="#55b5e2"/>
-    <path d="M320 410h65" stroke="#0e4f86" stroke-width="3" opacity=".6"/>
-  </g>
-
-  <!-- Small highlights -->
-  <circle cx="355" cy="105" r="11" fill="#f4c96e"/>
-  <path d="M350 105h10M355 100v10" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
-  <circle cx="293" cy="139" r="5" fill="#76d7e3"/>
-  <circle cx="638" cy="278" r="6" fill="#75d9d5"/>
+<!-- restrained highlights -->
+<circle cx="355" cy="105" r="11" fill="#f4c96e"/>
+<path d="M350 105h10M355 100v10" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="293" cy="139" r="5" fill="#76d7e3"/>
+<circle cx="638" cy="278" r="6" fill="#75d9d5"/>
 </svg>
