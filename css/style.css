@@ -259,3 +259,10 @@ main{flex:1 0 auto;min-width:0}
 .dark-theme .check-item{background:#142b40;border-color:var(--line);color:var(--ink)}
 .dark-theme .resource-list>a:hover{background:#1a3a4c}
 .dark-theme .quiz-topline{color:#b4c3d0}
+
+
+/* Hero artwork is a desktop/tablet visual; keep the mobile hero focused on its message and CTAs. */
+@media(max-width:760px){
+  .hero-art{display:none!important}
+  .hero-grid{grid-template-columns:minmax(0,1fr);min-height:0}
+}
