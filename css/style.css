@@ -301,3 +301,22 @@ main{flex:1 0 auto;min-width:0}
   background:#e3edf3;
   color:#0b2338;
 }
+
+/* Mobile navigation menu button: distinct surface and visible hamburger in dark mode. */
+.dark-theme .menu-toggle{
+  background:#20394e;
+  color:#79ded0;
+  border-color:#3b566c;
+  box-shadow:0 2px 8px rgba(0,0,0,.18);
+}
+.dark-theme .menu-toggle span{
+  background:#79ded0;
+}
+.dark-theme .menu-toggle:hover{
+  background:#29485f;
+  border-color:#58bfb2;
+}
+.dark-theme .menu-toggle:focus-visible{
+  outline:3px solid #58bfb2;
+  outline-offset:3px;
+}
