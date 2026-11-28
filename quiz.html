@@ -3,57 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Test your knowledge of consumer rights in India with this interactive quiz.">
-  <meta name="theme-color" content="#102b46">
-  <title>Awareness Quiz | ConsumerShield</title>
-  <link rel="icon" href="assets/svg/shield-logo.svg" type="image/svg+xml">
+  <title>Consumer Awareness Quiz</title>
   <link rel="stylesheet" href="css/style.css">
-  <script src="js/main.js" defer></script>
-  <script src="js/quiz.js" defer></script>
+  <script src="js/script.js" defer></script>
 </head>
 <body>
-
-<a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header">
-  <div class="container nav-wrap">
-    <a class="brand" href="index.html" aria-label="ConsumerShield home">
-      <img src="assets/svg/shield-logo.svg" alt="" width="42" height="42">
-      <span>Consumer<span class="brand-accent">Shield</span><small>CONSUMER AWARENESS PORTAL</small></span>
-    </a>
-    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span><span></span></button>
-    <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
-      <a  href="index.html">Home</a>
-      <a  href="rights.html">Know Your Rights</a>
-      <a  href="complaints.html">Complaint Guide</a>
-      <a  href="laws.html">Laws & Protection</a>
-      <a aria-current="page" href="quiz.html">Awareness Quiz</a>
-      <button class="theme-toggle" type="button" aria-label="Switch to dark theme" title="Toggle theme">◐</button>
-    </nav>
-  </div>
+<header>
+  <h1>Consumer Awareness Quiz</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="rights.html">Rights</a>
+    <a href="complaints.html">Complaint</a>
+    <a href="laws.html">Laws</a>
+    <a href="quiz.html">Quiz</a>
+  </nav>
 </header>
+<main>
+  <section>
+    <h2>Test your knowledge</h2>
+    <form id="quizForm">
+      <h3>1. Which law protects consumers in India?</h3>
+      <label><input type="radio" name="q1" value="wrong"> Companies Act</label>
+      <label><input type="radio" name="q1" value="right"> Consumer Protection Act, 2019</label>
 
-<main id="main">
-  <section class="page-hero"><div class="container"><span class="eyebrow">LEARN BY DOING</span><h1>How smart a consumer <span class="text-gradient">are you?</span></h1><p>Answer these questions about consumer rights and everyday situations. Learn from the explanations as you go.</p><div class="breadcrumb"><a href="index.html">Home</a><span>/</span><span>Awareness Quiz</span></div></div></section>
-  <section class="section container quiz-layout">
-    <aside class="quiz-aside"><span class="quiz-aside-icon">✦</span><h2>Quick knowledge check</h2><p>Eight questions. One point for each correct answer. Read the explanation after every response.</p><div class="quiz-stat"><strong>08</strong><span>Questions</span></div><div class="quiz-stat"><strong>01</strong><span>Point per answer</span></div></aside>
-    <div class="quiz-card" id="quiz-card">
-      <div class="quiz-topline"><span id="question-count">Question 1 of 8</span><span id="score-label">Score: 0</span></div>
-      <div class="progress-track"><span id="quiz-progress"></span></div>
-      <div id="question-area"><h2 id="question-text">Loading question...</h2><div id="answer-options" class="answer-options"></div></div>
-      <div id="answer-feedback" class="answer-feedback" aria-live="polite" hidden></div>
-      <div class="quiz-controls"><button id="next-question" class="btn btn-primary" type="button" disabled>Next question →</button></div>
-    </div>
-    <div id="quiz-result" class="quiz-result" hidden></div>
+      <h3>2. Which number is used for the National Consumer Helpline?</h3>
+      <label><input type="radio" name="q2" value="right"> 1915</label>
+      <label><input type="radio" name="q2" value="wrong"> 100</label>
+
+      <h3>3. Which document is useful as proof of purchase?</h3>
+      <label><input type="radio" name="q3" value="right"> Bill or receipt</label>
+      <label><input type="radio" name="q3" value="wrong"> Advertisement</label>
+
+      <h3>4. What should you do if a product is defective?</h3>
+      <label><input type="radio" name="q4" value="wrong"> Ignore the problem</label>
+      <label><input type="radio" name="q4" value="right"> Contact the seller and keep proof</label>
+
+      <button type="submit">Check Answers</button>
+    </form>
+    <p id="quizResult"></p>
   </section>
 </main>
-
-<footer class="site-footer">
-  <div class="container footer-grid">
-    <div><a class="brand footer-brand" href="index.html"><img src="assets/svg/shield-logo.svg" alt="" width="38" height="38"><span>Consumer<span class="brand-accent">Shield</span><small>KNOW YOUR RIGHTS. STAY PROTECTED.</small></span></a><p class="footer-copy">A student-built awareness project that makes consumer rights and complaint pathways easier to understand.</p></div>
-    <div><h3>Explore</h3><a href="rights.html">Consumer Rights</a><a href="complaints.html">Complaint Guide</a><a href="laws.html">Laws & Protection</a><a href="quiz.html">Awareness Quiz</a></div>
-    <div><h3>Official resources</h3><a href="https://consumerhelpline.gov.in/" target="_blank" rel="noopener">National Consumer Helpline</a><a href="https://e-jagriti.gov.in/" target="_blank" rel="noopener">e-Jagriti Portal</a><a href="https://consumeraffairs.gov.in/" target="_blank" rel="noopener">Department of Consumer Affairs</a></div>
-  </div>
-  <div class="container footer-bottom"><span>© <span data-year></span> ConsumerShield. Educational project.</span><span>Information is general awareness, not legal advice.</span></div>
+<footer>
+  <p>Consumer Rights Awareness — Student Project</p>
 </footer>
 </body>
 </html>
