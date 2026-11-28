@@ -290,3 +290,14 @@ main{flex:1 0 auto;min-width:0}
   outline:3px solid #58bfb2;
   outline-offset:3px;
 }
+
+/* Keep light CTA buttons readable against dark promotional panels. */
+.dark-theme .btn-light{
+  background:#f4f8fb;
+  color:#102b46;
+  border-color:#d6e2ea;
+}
+.dark-theme .btn-light:hover{
+  background:#e3edf3;
+  color:#0b2338;
+}
